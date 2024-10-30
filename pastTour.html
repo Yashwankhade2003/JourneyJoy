@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Tours</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .table-container {
+            margin-top: 50px;
+        }
+        .table th, .table td {
+            vertical-align: middle;
+        }
+        .tour-image {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+        }
+        body {
+             /* Simple light grey background */
+            background-color: lightblue;
+            padding-bottom: 100px;
+        }
+        /*body {
+            background-image: url('hero-bg.jpg'); /* Add your background image here */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }*/
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="Home.html">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tours
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="PastTours.html">Past Tours</a>
+                        <a class="dropdown-item" href="FutureTour.html">Future Tours</a>
+                    </div>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="video.html">Video</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="food.html">Food</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login_1.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Table for Past Tours -->
+    <div class="container table-container">
+        <h3 class="text-center mb-4">Past Tours</h3>
+        <table class="table table-bordered">
+            <thead class="" style="background-color:orange;">
+                <tr>
+                    <th>Tour Name</th>
+                    <th>Tour Date</th>
+                    <th>Tour Location</th>
+                    <th>Tour Itinerary</th>
+                    <th>Best Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #f5f5dc;">
+                    <td>Mumbai Adventure</td>
+                    <td>2023-06-15</td>
+                    <td>Mumbai</td>
+                    <td>
+                        <details>
+                            <summary>View Itinerary</summary>
+                            <ul>
+                                <li>Day 1: Gateway of India, Colaba Causeway</li>
+                                <li>Day 2: Elephanta Caves, Marine Drive</li>
+                                <li>Day 3: Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, Juhu Beach</li>
+                                <li>Day 4: Haji Ali Dargah, Worli Sea Face</li>
+                            </ul>
+                        </details>
+                    </td>
+                    <td><img class="tour-image" src="https://r-xx.bstatic.com/xdata/images/city/170x136/971346.jpg?k=40eeb583a755f2835f4dcb6900cdeba2a46dc9d50e64f2aa04206f5f6fce5671&o=" alt="Paris Tour Image"></td>
+                </tr>
+                <tr style="background-color: #f5f5dc;">
+                    <td>Delhi Explorer</td>
+                    <td>2023-04-10</td>
+                    <td>Delhi</td>
+                    <td>
+                        <details>
+                            <summary>View Itinerary</summary>
+                            <ul>
+                                <li>Day 1: Red Fort, Jama Masjid</li>
+                                <li>Day 2: Qutub Minar, Lotus Temple</li>
+                                <li>Day 3: India Gate, Humayun’s Tomb</li>
+                                <li>Day 4: Akshardham Temple, Raj Ghat</li>
+                            </ul>
+                        </details>
+                    </td>
+                    <td><img class="tour-image" src="https://r-xx.bstatic.com/xdata/images/city/170x136/684765.jpg?k=3f7d20034c13ac7686520ac1ccf1621337a1e59860abfd9cbd96f8d66b4fc138&o=" alt="Tokyo Tour Image"></td>
+                </tr>
+                <tr style="background-color: #f5f5dc;">
+                    <td>Safari in Hydrabad</td>
+                    <td>2022-12-05</td>
+                    <td>Hydrabad</td>
+                    <td>
+                        <details>
+                            <summary>View Itinerary</summary>
+                            <ul>
+                                <li>Day 1: Charminar</li>
+                                <li>Day 2: Golconda Fort, Qutub Shahi Tombs</li>
+                                <li>Day 3: Salar Jung Museum, Hussain Sagar Lake</li>
+                                <li>Day 4: Ramoji Film City, Lumbini Park</li>
+                            </ul>
+                        </details>
+                    </td>
+                    <td><img class="tour-image" src="https://r-xx.bstatic.com/xdata/images/city/170x136/684534.jpg?k=d1fe86c22f2433f4e2dda14ddcbe80feb024b0fb30305e5684a1241fba5d4cff&o=" alt="Kenya Safari Image"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <!-- <footer>
+        <p>Developed By: Your Name</p>
+    </footer> -->
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+
+img{
+
+	padding: 5%;
+	border-radius: 2%;
+}
+
+.nav-link{
+
+	color: white;
+}
+
+.world{
+
+	color: white;
+	font-size: 38px;
+	font-weight: 700;
+	text-shadow: 0px, 1px, 1px, black;
+}
+
+.visit{
+
+	color: white;
+	font-size: 70px;
+	font-weight: 900;
+	text-shadow: 0px, 1px, 1px, black;
+	margin-top: 5px;
+}
+
+
+
+.changecontent::after{
+	content: '';
+	color: orange;
+	text-shadow: 0px, 1px, 1px, black;
+	animation: changetext 10s infinite linear;
+
+
+}
+@keyframes changetext{
+
+	0%{content: " Pune";}
+	10%{content: " Delhi";}
+	20%{content: " Banglore";}
+	30%{content: " Agra";}
+	40%{content: " Goa";}
+	50%{content: " Amritsar";}
+	60%{content: " Hydrabad";}
+	70%{content: " Kerla";}
+	80%{content: " Kashmir";}
+	90%{content: " Manali";}
+	100%{content: " Chennai";}
+	110%{content: " Andaman Nikobar";}
+	120%{content: " Mumbai";}
+	130%{content: " Srinagar";}
+	140%{content: " Himachal Pradesh";}
+	150%{content: " Tamil Nadu";}
+	160%{content: " Uttar Pradesh";}
+	170%{content: " Rajsthan";}
+	180%{content: " Gujarat";}
+}
+

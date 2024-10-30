@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Tours</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .table-container {
+            margin-top: 50px;
+        }
+        .table th, .table td {
+            vertical-align: middle;
+        }
+        .marquee-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        marquee img {
+            width: 150px;
+            height: auto;
+            margin: 0 20px;
+            border-radius: 15px; /* Giving different shapes */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .marquee img.round {
+            border-radius: 50%; /* Circular images */
+        }
+        .marquee img.triangle {
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        }
+        body {
+            background-color:  lightskyblue; /* Simple light grey background */
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="Home.html">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tours
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="PastTours.html">Past Tours</a>
+                        <a class="dropdown-item" href="FutureTour.html">Future Tours</a>
+                    </div>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="video.html">Video</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="food.html">Food</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login_1.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Registration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Future Tours Table -->
+    <div class="container table-container">
+        <h3 class="text-center mb-4">Future Tours</h3>
+        <table class="table table-bordered">
+            <thead class="" style="background-color: orange;">
+                <tr>
+                    <th>Tour Name</th>
+                    <th>Tour Date</th>
+                    <th>Tour Location</th>
+                    <th>Tour Itinerary</th>
+                    <th>Tour Package</th>
+                </tr>
+            </thead>
+            <tbody style="background-color: #fdf5e6;">
+                <tr>
+                    <td>Ladak adventute</td>
+                    <td>2025-05-10</td>
+                    <td>Ladak</td>
+                    <td>
+                        <details>
+                            <summary>View Itinerary</summary>
+                            <ul>
+                                <li>Day 1: Arrival and Leh city tour</li>
+                                <li>Day 2: Mountain hiking in Nubra Valley</li>
+                                <li>Day 3: Pangong Lake tour</li>
+                            </ul>
+                        </details>
+                    </td>
+                    <td>$1500</td>
+                </tr>
+                <tr>
+                    <td>Bali Relaxation</td>
+                    <td>2025-08-22</td>
+                    <td>Bali, Indonesia</td>
+                    <td>
+                        <details>
+                            <summary>View Itinerary</summary>
+                            <ul>
+                                <li>Day 1: Beach relaxation</li>
+                                <li>Day 2: Temple visits</li>
+                                <li>Day 3: Spa day</li>
+                            </ul>
+                        </details>
+                    </td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>New Zealand Explorer</td>
+                    <td>2025-11-15</td>
+                    <td>Auckland, New Zealand</td>
+                    <td>
+                        <details>
+                            <summary>View Itinerary</summary>
+                            <ul>
+                                <li>Day 1: City tour</li>
+                                <li>Day 2: Hobbiton visit</li>
+                                <li>Day 3: Adventure sports</li>
+                            </ul>
+                        </details>
+                    </td>
+                    <td>$1800</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Marquee for Nature-based Images -->
+    <div class="container marquee-container" style="padding-left: 400px;" >
+        <marquee behavior="scroll" direction="left" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrrgMth03giuHjUOJ0QjLqEdwENQGkcMwSng&s);">
+            <img src="https://cdn.pixabay.com/photo/2016/03/27/17/26/water-1283199_640.jpg" alt="Nature 1" class="round">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1L5ez_926eI7zyIgxhzE95aLhknfUgMhro4xT7I3VBUfJpkv9nEDk_QxBDwvq8v5mLoQ&usqp=CAU" alt="Nature 2" class="triangle">
+            <img src="https://wallpapers.com/images/hd/kerala-pictures-7vrpfahaj0ici5vp.jpg" alt="Nature 3" class="round">
+            <img src="https://static.toiimg.com/photo/95150047.cms" alt="Nature 4">
+            <img src="https://www.ekashmirtourism.com/wp-content/uploads/2022/12/hot-air-balloon-kashmir.jpg" alt="Nature 5">
+            <img src="https://kashmirmonitor-s01.sgp1.cdn.digitaloceanspaces.com/wp-content/uploads/2023/06/wgwgwg.jpg" alt="Nature 5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1L5ez_926eI7zyIgxhzE95aLhknfUgMhro4xT7I3VBUfJpkv9nEDk_QxBDwvq8v5mLoQ&usqp=CAU" alt="Nature 2" class="triangle">
+
+        </marquee>
+    </div>
+
+    <!-- Footer -->
+   <!--  <footer>
+        <p>Developed By: Your Name</p>
+    </footer> -->
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/

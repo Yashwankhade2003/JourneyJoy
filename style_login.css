@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+
+body{
+
+	background-image: url("hero-bg.jpg");
+}
+
+.navbar-brand{
+
+	color: white;
+}
+
+.nav-link{
+	color: white;
+}
